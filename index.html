@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jiun Bae</title>
+  <meta name="description" content="Research Engineer specializing in Machine Learning, Computer Vision, and NLP">
+  <link rel="canonical" href="https://jiun.dev">
+  <style>
+    :root {
+      --bg: #fafafa;
+      --text: #1a1a1a;
+      --muted: #666;
+      --link: #0066cc;
+      --border: #e0e0e0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --text: #e0e0e0;
+        --muted: #999;
+        --link: #6db3f2;
+        --border: #333;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    main {
+      max-width: 480px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .role {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .bio {
+      margin-bottom: 1.5rem;
+      color: var(--text);
+    }
+    .section {
+      margin-bottom: 1.5rem;
+    }
+    .section-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .tag {
+      font-size: 0.875rem;
+      padding: 0.25rem 0.75rem;
+      background: var(--border);
+      border-radius: 1rem;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .experience {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .experience span {
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Jiun Bae</h1>
+    <p class="role">Research Engineer @ Return Zero</p>
+
+    <p class="bio">
+      머신러닝, 컴퓨터 비전, 자연어 처리 분야의 연구 엔지니어입니다.
+      현실의 문제를 데이터 기반 혁신으로 해결하는 데 힘쓰고 있습니다.
+    </p>
+
+    <div class="section">
+      <p class="section-title">Focus</p>
+      <div class="tags">
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Computer Vision</span>
+        <span class="tag">NLP</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <p class="section-title">Experience</p>
+      <p class="experience">
+        <span>NCSOFT</span> Graphics AI Lab<br>
+        <span>Hanyang Univ.</span> Computer Vision Lab, M.S.
+      </p>
+    </div>
+
+    <div class="section">
+      <p class="section-title">Links</p>
+      <div class="links">
+        <a href="https://blog.jiun.dev">Blog</a>
+        <a href="https://github.com/jiunbae">GitHub</a>
+        <a href="https://linkedin.com/in/jiunbae">LinkedIn</a>
+        <a href="https://twitter.com/baejiun">Twitter</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
